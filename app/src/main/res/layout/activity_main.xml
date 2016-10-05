@@ -26,5 +26,15 @@
         android:id="@+id/button"
         android:layout_gravity="bottom"
         android:onClick="onClick"
-        android:layout_weight="5"/>
+        android:layout_weight="3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="統計を見る"
+        android:id="@+id/button2"
+        android:layout_gravity="bottom"
+        android:onClick="onClick2"
+        android:layout_weight="3"/>
+
 </LinearLayout>

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">おみくじ</string>
+    <string name="button1">占う</string>
+    <string name="button2">統計を見る</string>
+    <string name="Return">戻る</string>
 </resources>
