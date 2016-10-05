@@ -10,10 +10,12 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
+    int num;
     boolean count = false;
     ImageView imageView;
     Button button;
-    int point[] = new int[5];
+    int point[] = {0,0,0,0,0};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         if(count == false) {
             //乱数を生成させる
             Random r = new Random();
-            int num = r.nextInt(5);
+            num = r.nextInt(5);
 
             imageView = (ImageView) findViewById(R.id.imageView);
 
@@ -108,10 +110,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-//    public void onClick2(View v){
-//        Intent intent = new Intent(this, TableActivity.class);
-//        intent.putExtra("point", point[0]);
-//        startActivity(intent);
-//    }
+    public void onClick2(View v){
+        Intent intent = new Intent(this, TableActivity.class);
+        intent.putExtra("point", point);
+        startActivity(intent);
+    }
 
 }
