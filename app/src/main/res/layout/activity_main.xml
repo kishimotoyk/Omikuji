@@ -16,7 +16,7 @@
         android:layout_height="match_parent"
         android:id="@+id/imageView"
         android:layout_weight="1"
-        android:src="@drawable/omkj3"/>
+        android:src="@drawable/omkj"/>
 
 
     <Button

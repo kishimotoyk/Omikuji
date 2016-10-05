@@ -2,7 +2,6 @@ package org.t_robop.kishimoto.omikuji;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
             //生成した乱数によって場合分け
             if (num == 0) {
-                imageView.setImageResource(R.drawable.daikichitext2);
+                imageView.setImageResource(R.drawable.daikichitext);
             } else if (num == 1) {
                 imageView.setImageResource(R.drawable.tyuukichitext);
             } else if (num == 2) {
@@ -52,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         else if(count == 1){
-            imageView.setImageResource(R.drawable.omkj3);
+            imageView.setImageResource(R.drawable.omkj);
             button.setText("占う");
             count--;
         }
