@@ -155,6 +155,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    //統計を見るのボタンを押された時の動作
     public void onStatisticsClick(View v){
         Intent intent = new Intent(this, TableActivity.class);
         intent.putExtra("point1", point1);
@@ -165,6 +166,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    //隠蔽予定の乱数生成メソッド
     public int RandomNumber(){
         Random r = new Random();
         num = r.nextInt(5);
