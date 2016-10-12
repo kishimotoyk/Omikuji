@@ -15,7 +15,7 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
 
     //場合分けに使うための整数の入る変数
-    int num;
+    int random;
 
     //ボタンの押された時の動作を二個用意するための◯×が入る変数
     boolean count = false;
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         if(count == false) {
 
             //範囲が0~4までの乱数を1個生成させて、整数型変数numに入れる
-            RandomNumber();
+            int num = Secret.RandomNumber(random);
 
             //生成した乱数によって場合分け
             switch (num){
@@ -166,10 +166,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    //隠蔽予定の乱数生成メソッド
-    public int RandomNumber(){
-        Random r = new Random();
-        num = r.nextInt(5);
-        return num;
-    }
 }
