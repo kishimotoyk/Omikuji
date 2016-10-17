@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.0"
 
     defaultConfig {
-        applicationId "org.t_robop.kishimoto.omikuji"
+        applicationId "org.t_robop.omikuji"
         minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
