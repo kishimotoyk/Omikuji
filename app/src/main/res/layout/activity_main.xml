@@ -14,14 +14,15 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="9"
+        android:layout_weight="7"
         android:gravity="center">
 
         <TextView
-            android:text="TextView"
+            android:text="おみくじ"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView"
+            android:textSize="30sp"
             android:gravity="center" />
     </LinearLayout>
 
@@ -32,6 +33,7 @@
         android:id="@+id/button"
         android:layout_gravity="bottom"
         android:onClick="onClick"
+        android:textSize="30sp"
         android:layout_weight="1" />
 
     <!--統計のボタン
