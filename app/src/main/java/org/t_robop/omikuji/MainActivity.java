@@ -28,18 +28,23 @@ public class MainActivity extends AppCompatActivity {
             switch (num) {
                 case 0:
                     //大吉
+                    
                     break;
                 case 1:
                     //中吉
+                    
                     break;
                 case 2:
                     //小吉
+                    
                     break;
                 case 3:
                     //吉
+                    
                     break;
                 case 4:
                     //凶
+                    
                     break;
             }
 
