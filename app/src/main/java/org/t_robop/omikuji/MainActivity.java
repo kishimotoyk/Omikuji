@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static int RandomNumber(int num){
         Random r = new Random();
-        num = r.nextInt(5);
+        num = r.nextInt(num);
         return num;
     }
 }
